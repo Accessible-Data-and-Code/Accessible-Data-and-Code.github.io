@@ -70,3 +70,4 @@ user_groups:
 ---
 
 My work will start out my dissertation by exploring the limits of reproducibility in the computational sciences. I also plan to use dynamic network analysis and natural language processing to analyse large corpuses of scientific literature to study evolving standards of practice. Finally, I'm interested in using qualitative methods to survey and observe groups that are currently attempting to reconsile competing values in proposing standards of practice. I will also report out on my own experience setting standards of practice by developing a ruberic for the peer-review of notebook submissions to the inaugural US-RSE Conference.
+
