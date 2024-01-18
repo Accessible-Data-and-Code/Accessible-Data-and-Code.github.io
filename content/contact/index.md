@@ -14,9 +14,9 @@ sections:
       phone: 888 888 88 88
       address:
         street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
+        city: Tempe
+        region: AZ
+        postcode: '85283'
         country: United States
         country_code: US
       coordinates:
