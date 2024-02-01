@@ -1,14 +1,14 @@
 ---
 # Display name
-title: Namita Shah
+title: David Costello
 
 # Full name (for SEO)
-first_name: Namita
-last_name: Shah
+first_name: David
+last_name: Costello
 
 # Username (this should match the folder name)
 authors:
-  - Namita
+  - David
 
 # Is this the primary user of the site?
 superuser: false
@@ -22,16 +22,16 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Computer Science.
+bio: My research interests include math.
 
 interests:
-  - CS
+  - Math
 
 education:
   courses:
-    - course: BS in Computer Science
+    - course: BS in Math
       institution: Arizona State University
-      year: May 2025
+      year: 2024
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons

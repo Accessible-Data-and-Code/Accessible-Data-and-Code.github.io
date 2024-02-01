@@ -1,5 +1,5 @@
 ---
-title: People
+title: Full
 date: 2022-10-24
 
 type: landing
@@ -21,3 +21,4 @@ sections:
       show_role: true
       show_social: true
 ---
+

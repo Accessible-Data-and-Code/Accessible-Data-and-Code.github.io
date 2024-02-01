@@ -1,6 +1,6 @@
 ---
-title: Richard Hendricks Wins First Place in the Wowchemy Prize
-date: 2020-12-01
+title: Exploring Network Visualization in Jupyter Notebooks
+date: 2021-12-01
 ---
 
 Congratulations to Richard Hendricks for winning first place in the Wowchemy Prize.
