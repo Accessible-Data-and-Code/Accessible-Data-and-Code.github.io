@@ -7,7 +7,7 @@ event_url: https://nomad.fhi.mpg.de/
 
 location: Virtual
 
-summary: An example event.
+summary: This video has a section that highlights how you can use Jupyter Notebooks as components of scientific workflows
 abstract: 'In this video, Johannes Köster talks about reproducible data analysis with Snakemake. This video has a section that highlights how you can use Jupyter Notebooks as components of scientific workflows.'
 
 # Talk start and end times.
