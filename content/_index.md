@@ -8,7 +8,7 @@ sections:
   - block: slider
     content:
       slides:
-      - title: 👋 Welcome to Accessible Code and Data 
+      - title: 👋 Welcome to Jupyter4Science
         content: Take a look at what we're working on...
         align: center
         background:
