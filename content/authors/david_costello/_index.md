@@ -8,7 +8,7 @@ last_name: Costello
 
 # Username (this should match the folder name)
 authors:
-  - David
+  - david_costello
 
 # Is this the primary user of the site?
 superuser: false
