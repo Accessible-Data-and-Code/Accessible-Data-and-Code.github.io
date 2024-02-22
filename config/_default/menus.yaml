@@ -5,7 +5,7 @@
 
 main:
   - name: About
-    url: tour
+    url: about
     weight: 10
   - name: Posts
     url: posts

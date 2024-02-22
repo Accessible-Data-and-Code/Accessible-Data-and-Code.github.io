@@ -1,3 +1,5 @@
+
+
 ---
 title: About
 date: 2022-10-24
@@ -9,50 +11,52 @@ sections:
     content:
       title: |
         About
-      image:
-        filename: welcome.jpg
+     
       text: |
         <br>
         
         ## **Introduction**
           *Welcome to Jupyter4Science!*
           
-          At Jupyter4Science, we're dedicated to empowering researchers, research software engineers (RSEs), and students alike with the necessary skills to succeed in the field of scientific software development. Led by BSSw Fellow Nicole Brewer, our initiative is working on making scientific software accessible and reproducible for the universal growth of the field through the use of Jupyter Notebooks. Jupyter makes an excellent platform for development because it can be easily understood, inherited, and maintained by researchers, especially in an interdisciplinary environment. Our resources, including tutorials, example notebooks, and curated content, provide users with practical insights and better practices for sharing reproducible workflows and developing high-quality software, all within the Jupyter ecosystem.  
-  
+        Jupyter4Science is a **knowledge base** that contains original content and curated resources about developing and sharing Jupyter Notebooks as they are used in the context of scientific applications.
   
   - block: markdown
     content:
-      title: Navigating the Website
-      subtitle: ''
+      title: Jupyter Notebook and the Jupyter Ecosystem
+      design:
+      columns: '1'
       text: |
-      
-        If you're confused on where to start, here's an overview of the layout of the website:
-        
-        | Website Tabs | Description | 
-        | -------- | -------- | 
-        | About        | Learn more about what our mission is and the quick 101 rundown lesson on some Jupyer foundations. | 
-        | Posts        | Find our latest newsletters and posts about our technical recommendations, mishaps, and more!  |
-        | Publications | Find all of our publications related to our research here that has been publicly recognized.    |
-        | Resources    | This is where you'll find the heart of our content! The main page has a collection of content for your learning. Refer to the "Examples" section for how we put our knowledge into practice. |
-        | People       | Check this page out if you're interested in learning more about the faces behind the screen! 
+        Computational notebooks, including Jupyter Notebooks, come in many varieties, but they all have one thing in common: much like traditional laboratory notebooks, computational notebooks contain code cells interspersed with text that can be used to explain their analysis. ![screen reader text](image1.png "This is an example of text")
 
 
-      
-       
+  - block: markdown
+    content:
+      title: Our Mission 
+      subtitle: 
+      text: |
+        However, our knowledge base is intended for a **research-oriented audience**, including computational scientists, [research software engineers](https://us-rse.org/about/what-is-an-rse/) (RSEs), [academic data scientists](https://academicdatascience.org/community-projects/career-guidebook/), social sciences, digital humanities researchers, and students, and anyone else who use Jupyter Notebooks to conduct research. Our aim is to provide rich resources for researchers, students, and RCD professionals about **better practices** to improve the **accessibility**, **reuse**, and **reproducibility** of their scientific software, data, and computational workflows.
+    
     design:
       columns: '1'
-
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
+   
   
   - block: markdown
     content:
-      title:
+      title: Original Content and Resources
       subtitle:
       text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
+        The knowledge base contains original content including tutorials, templates, blog posts, and example notebooks. We also curate and summarize external content like YouTube videos, podcast episodes, and more.
+        - Development Environments for Jupyter Notebooks
+        - Reproducible Environments
+        - Sharing Notebooks
+        - Creating Publications with Quarto
+        - Templates and Best Practices
+        - Jupyter Notebooks as Peer-Reviewed Publications
+        - Building Data Dashboards and Web Applications with Jupyter Notebooks
+        - and an overview from a [10,000 foot view]()
+        
+        We hope that these resources reduce pain points and improve the efficiency and quality of your research. We're excited to introduce Jupyter4Science to you!
+  
     design:
       columns: '1'
 ---
-
