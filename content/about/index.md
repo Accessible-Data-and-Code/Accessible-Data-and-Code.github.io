@@ -11,7 +11,8 @@ sections:
     content:
       title: |
         About
-     
+      image: 
+        filename: j4sLogo.png
       text: |
         <br>
         
@@ -26,7 +27,7 @@ sections:
       design:
       columns: '1'
       text: |
-        Computational notebooks, including Jupyter Notebooks, come in many varieties, but they all have one thing in common: much like traditional laboratory notebooks, computational notebooks contain code cells interspersed with text that can be used to explain their analysis. ![screen reader text](image1.png "This is an example of text")
+        Computational notebooks, including Jupyter Notebooks, come in many varieties, but they all have one thing in common: much like traditional laboratory notebooks, computational notebooks contain code cells interspersed with text that can be used to explain their analysis. ![screen reader text](image1.png "This is an example of Markdown formatted text followed by code chunks")
 
 
   - block: markdown

@@ -25,7 +25,11 @@ organizations:
 bio: My research interests include Computer Science.
 
 interests:
-  - CS
+  - Teaching 
+  - Data Science
+  - Research Software Engineering
+  - Music 
+  - Hiking
 
 education:
   courses:
@@ -44,12 +48,9 @@ social:
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/GeorgeCushen
-  - icon: google-scholar
-    icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/namitasshah
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -65,5 +66,6 @@ user_groups:
   - Undergraduate Students
 ---
 
-吳恩達 is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Namita is currently a junior pursuing Computer Science at Ira Fulton School of Engineering and Barrett, the Honors College, with minors in Data Science and Educational Studies. Namita is involved in the Barrett Mentoring Program, Engineering Projects in Community Service (EPICS) program, and SKY meditation club on campus and has previously been an ASU/NASA Space Grant intern. Namita joined Jupyter4Science in June 2023 and is continuing to currently work here as a research software engineer. Through her experiences, she is driven by a desire to pursue a career in the research department of professional industry in parallel with teaching higher education. In her free time, Namita enjoys listening to and singing music, as well as hiking around Arizona's gorgeous valleys!    
+
 
