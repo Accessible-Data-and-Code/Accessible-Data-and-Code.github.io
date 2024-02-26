@@ -3,6 +3,10 @@ title: Exploring Network Visualization in Jupyter Notebooks
 date: 2024-01-12
 ---
 
+Exploring Network Visualization in Jupyter Notebooks: A Comparison of ipycytoscape and ipysigma
+
+
+
 ## INTRODUCTION
 
 In the realm of data science and network analysis, Jupyter Notebooks have become an increasingly popular platform for exploring and visualizing complex relationships. When dealing with large datasets, we'll compare two prominent network visualization libraries for Jupyter Notebooks—ipycytoscape and ipysigma—in the context of our use case. 
