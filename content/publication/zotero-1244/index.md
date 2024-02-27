@@ -7,5 +7,7 @@ abstract: "We describe our experience designing and implementing a highly intera
 featured: false
 publication: "Gateways 2021"
 doi: "https://zenodo.org/doi/10.5281/zenodo.5570604"
+url_video: "https://youtu.be/O_KAupUYcyk?feature=shared"
+tags: ["user-interface", "interactivity"]
 ---
 
