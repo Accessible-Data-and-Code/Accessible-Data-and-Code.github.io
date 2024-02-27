@@ -1,11 +1,10 @@
 ---
 title: Exploring Network Visualization in Jupyter Notebooks
 date: 2024-01-12
+authors: ["namita_shah", "admin"]
 ---
 
 Exploring Network Visualization in Jupyter Notebooks: A Comparison of ipycytoscape and ipysigma
-
-
 
 ## INTRODUCTION
 
