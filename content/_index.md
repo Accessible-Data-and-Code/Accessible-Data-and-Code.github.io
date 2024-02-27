@@ -8,48 +8,54 @@ sections:
   - block: slider
     content:
       slides:
-      - title: 👋 Welcome to Jupyter4Science
-        content: Take a look at what we're working on...
+      - title: Jupyter4Science
+        content: Jupyter4Science is a **knowledge base** that contains original content and curated resources about developing and sharing Jupyter Notebooks as they are used in the context of scientific applications.
         align: center
         background:
           image:
-            filename: coders.jpg
+            filename: random.jpeg
             filters:
               brightness: 0.7
           position: right
           color: '#666'
-      - title: Cookbook ☕️
-        content: 'Share your knowledge with the group and explore exciting new topics together!'
-        align: left
-        background:
-          image:
-            filename: contact.jpg
-            filters:
-              brightness: 0.7
-          position: center
-          color: '#555'
-      - title: Conferences!'
-        align: right
-        background:
-          image:
-            filename: welcome.jpg
-            filters:
-              brightness: 0.5
-          position: center
-          color: '#333'
         link:
           icon: graduation-cap
           icon_pack: fas
-          text: Join Us
-          url: ../contact/
+          text: About
+          url: ../about/
+        
     design:
-      # Slide height is automatic unless you force a specific height (e.g. '400px')
-      slide_height: ''
-      is_fullscreen: true
-      # Automatically transition through slides?
-      loop: false
-      # Duration of transition between slides (in ms)
-      interval: 2000
+        # Slide height is automatic unless you force a specific height (e.g. '400px')
+        slide_height: ''
+        is_fullscreen: true
+       
+          
+  - block: collection
+    content:
+      title: Latest News
+      subtitle:
+      text:
+      count: 5
+      filters:
+        author: ''
+        category: ''
+        exclude_featured: false
+        publication_type: ''
+        tag: ''
+      offset: 0
+      order: desc
+      page_type: posts
+    design:
+      view: card
+      columns: '2'
+      card_style: small
+      
+  - block: markdown
+    content:
+      title:
+      subtitle:
+      text: |
+        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
       
 
 ---
