@@ -1,5 +1,6 @@
 ---
 title: "JupyterIDE: Promoting JupyterLab Features and Extensions That Facilitate Collaboration among Researchers and RSEs"
+slug: jupyteride-poster
 date: 2023-10-01
 publishDate: 2024-02-11T00:41:16.430187Z
 authors: ["david_costello", "admin", "namita_shah"]

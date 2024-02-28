@@ -25,7 +25,7 @@ organizations:
 bio: David is a senior at Arizona State University and Barrett, the Honors College majoring in mathematics doing research in Greek manuscript transcription. He was an intern with Jupyter4Science project for the better part of 2023. 
 
 interests:
-  - Math
+  - Mathematics
   - Greek and Hebrew
   - Digital Humanities
 
@@ -64,15 +64,4 @@ user_groups:
   - Undergraduate Students
 ---
 
-I am a senior at ASU studying mathematics doing research in Greek manuscript transcription. The hope is to create a way of automatically transcribing handwritten Greek texts for analysis in the Digital Humanities.
-
-I come from Grand Junction, CO, ⛰️🏜️ so I have a significant interest in pursuing research for agriculture, urban development, and water rights/use in the future as a way to give back to a community that has given me so much.
-
-Outside of mathematics (in a loose order):
-
-📝 I am applying for a PhD at ASU (looking at Computer Science, Applied Mathematics, Complex Adaptive Systems Science)
-
-📜 I am studying Greek and Hebrew to read manuscripts
-
-✏️ I am writing (slowly) a manual on debate
-
+David Costello is an undergraduate senior in mathematics at Arizona State University's Barrett Honors College. When David joined the Jupyter4Science team as a full time intern for the summer of 2023, he had a keen interest in the digital humanities and a computational notebook containing a research workflow for performing image processing steps on Greek manuscripts. David was hired to transition his Jupyter-based workflow into a full-fledged web application. By the end of the summer, David had developed a notebook-based manuscript annotation tool called [Glyptodon](https://github.com/Jupyter4Science/glyptodon), which was also a major feature of David's undergraduate honors thesis. 
