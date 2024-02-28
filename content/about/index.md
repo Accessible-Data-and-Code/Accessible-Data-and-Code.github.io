@@ -35,7 +35,7 @@ sections:
       title: Our Mission 
       subtitle: 
       text: |
-        However, our knowledge base is intended for a **research-oriented audience**, including computational scientists, [research software engineers](https://us-rse.org/about/what-is-an-rse/) (RSEs), [academic data scientists](https://academicdatascience.org/community-projects/career-guidebook/), social sciences, digital humanities researchers, and students, and anyone else who use Jupyter Notebooks to conduct research. Our aim is to provide rich resources for researchers, students, and RCD professionals about **better practices** to improve the **accessibility**, **reuse**, and **reproducibility** of their scientific software, data, and computational workflows.
+        However, our knowledge base is intended for a **research-oriented audience**, including computational scientists, [research software engineers](https://us-rse.org/about/what-is-an-rse/) (RSEs), [academic data scientists](https://academicdatascience.org/community-projects/career-guidebook/), social scientists, digital humanities researchers, and students, and anyone else who use Jupyter Notebooks to conduct research. Our aim is to provide rich resources for researchers, students, and RCD professionals about **better practices** to improve the **accessibility**, **reuse**, and **reproducibility** of their scientific software, data, and computational workflows.
     
     design:
       columns: '1'

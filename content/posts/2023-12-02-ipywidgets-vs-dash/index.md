@@ -1,9 +1,11 @@
 ---
-title:  IPyWidgets v Dash for GUI Image Processing
+title: ipywidgets vs. Dash for Image Processing Web Application
+slug: ipywidgets-vs-dash
 date: 2023-12-02
 image:
   focal_point: 'top'
-authors: ["david_costello", "admin"]
+authors: ["david_costello"]
+tags: ["user-interface", "ipywidgets", "Dash", "image-processing", "web-application"]
 ---
 
 ### Introduction
@@ -15,7 +17,7 @@ There were a lot of reasons to use the [IPyWidgets](https://ipywidgets.readthedo
 
 #### Model View Controller Digression
 
-> One of the most common patterns for developing software applications with a graphical interface is the Model-View-Controller ( or MVC) pattern. Any application developed with this pattern in mind separates the application into three components with different purposes. The *model* handles data structures and data manipulations. The *view* is what the user sees and interacts with. The *controller* is the part of the application that allows the model and the view components to communicate with each other, sort of like a switchboard operator receiving a call and making sure the right recipient is connected to it. An example would be a video game where users, viewing a gameplay scenario, input commands to move a character and the model, ordered by the controller, updates the view after doing the necessary computation to change what the environment looks like during movement. If you want to learn more about this software pattern, you can start [here](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller).
+> One of the most common patterns for developing software applications with a graphical interface is the Model-View-Controller (or MVC) pattern. Any application developed with this pattern in mind separates the application into three components with different purposes. The *model* handles data structures and data manipulations. The *view* is what the user sees and interacts with. The *controller* is the part of the application that allows the model and the view components to communicate with each other, sort of like a switchboard operator receiving a call and making sure the right recipient is connected to it. An example would be a video game where users, viewing a gameplay scenario, input commands to move a character and the model, ordered by the controller, updates the view after doing the necessary computation to change what the environment looks like during movement. If you want to learn more about this software pattern, you can start [here](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller).
 
 The centerpiece of my application is the interactive image processing. Python has several libraries which are good for non-interactive image processing such as [OpenCV](https://opencv.org/) and [PIL](https://pillow.readthedocs.io/en/stable/). Beyond the functionality in these libraries, I wanted users to be able to draw a line over text in a manuscript image and then associate the coordinates of that line with a manual transcription to create training data for Tesseract to use. <!---**[THIS IS WHERE AN IMAGE IS NEEDED]** --> Using the model-view-controller pattern, I wanted the lines drawn over the image, as a change in view, to be connected to the controller that could then cause a change in the model to store data. However, this was not possible with IPyWidgets. There is [a widget](https://ipywidgets.readthedocs.io/en/stable/examples/Widget%20List.html#image) in the IPyWidgets library that displays an image but does not allow users to draw on the image. There was an [interactive graph element](https://holoviews.org/reference/streams/bokeh/BoxEdit.html) compatible with IPyWidgets that could be hooked into the application controller that could theoretically use an image as a background element, but, due to an unfixed bug, I could not make the element work. After trying out multiple different libraries, I settled on [Dash](https://dash.plotly.com/) because it had a [robust web element](https://dash.plotly.com/annotations) capable of allowing users to annotate images and accessing that annotation with the application controller while the application was running. So I needed to learn the new library.
 

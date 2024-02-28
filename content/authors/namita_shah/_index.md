@@ -22,7 +22,7 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Computer Science.
+bio: Namita is currently a junior pursuing Computer Science at Ira Fulton School of Engineering and Barrett, the Honors College, with minors in Data Science and Educational Studies. She is also an intern for the Jupyter4Science project. 
 
 interests:
   - Teaching 
