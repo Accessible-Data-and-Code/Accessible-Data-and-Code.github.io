@@ -16,9 +16,9 @@ main:
   - name: Resources
     url: resources
     weight: 40
-  - name: People
+  - name: Team
     url: people
-    weight: 50
+    weight: 58
   - name: Contribute
     identifier: contribute
     url: contribute
@@ -31,6 +31,3 @@ main:
     parent: contribute
     url: contribute/site-content
     weight: 20
-  - name: Contact
-    url: contact
-    weight: 60
