@@ -72,7 +72,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/Accessible-Data-and-Code'
+    url: 'https://github.com/Jupyter4Science'
     content_dir: content
     branch: main
   avatar:
