@@ -15,10 +15,10 @@ appearance:
 
 marketing:
   seo:
-    site_type: Organization
+    site_type: ResearchOrganization # org types listed on https://schema.org/Organization
     local_business_type: ''
-    org_name: 'Jupyter4Science '
-    description: 'A highly-customizable Hugo research group theme powered by Wowchemy website builder.'
+    org_name: 'Jupyter4Science'
+    description: 'Original content and curated resources about developing and sharing Jupyter Notebooks as they are used in the context of scientific applications.'
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
@@ -72,7 +72,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/Jupyter4Science'
+    url: 'https://github.com/Jupyter4Science/jupyter4science.github.io'
     content_dir: content
     branch: main
   avatar:

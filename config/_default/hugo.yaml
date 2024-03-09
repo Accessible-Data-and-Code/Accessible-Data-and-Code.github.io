@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Jupyter4Science # Website name
-baseURL: 'https://jupyter4science.github.io/' # Website URL
+baseURL: 'https://jupyter4.science' # Website URL
 
 ############################
 ## LANGUAGE
